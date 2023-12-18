@@ -30,16 +30,13 @@ const ProductDetails = ({ clickedProduct }) => {
 
       <Box sx={{ py: 2, textAlign: { xs: "center", sm: "left" } }}>
         <Typography variant="h5">
-          {/* {clickedProduct.attributes.productTitle} */}
-          hhhhhhhhhhhhhhhh
+          {clickedProduct.attributes.productTitle}
         </Typography>
         <Typography my={0.4} fontSize={"22px"} color={"crimson"} variant="h6">
-          {/* ${clickedProduct.attributes.productPrice} */}
-          vvvvvvvvvvvvv
+          ${clickedProduct.attributes.productPrice}
         </Typography>
         <Typography variant="body1">
-          {/* {clickedProduct.attributes.productDescription} */}
-          hhhhhhhhhhhhhhhhhh
+          {clickedProduct.attributes.productDescription}
         </Typography>
 
         <Stack
